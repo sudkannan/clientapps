@@ -1,0 +1,6 @@
+SNAPPY code
+
+takes directory name as input for compression
+
+./run.sh DIRECTORY_TO_COMPRES
+
