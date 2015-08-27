@@ -1,0 +1,131 @@
+GthGridView.cell {
+	background-color: @theme_bg_color;
+	color: @theme_fg_color;
+}
+
+GthGridView.cell:selected,
+GthGridView.cell:selected:focus {
+	background-color: @theme_selected_bg_color;
+	color: @theme_selected_fg_color;
+}
+
+GthEmptyList.frame {
+	border-style: solid;
+	border-color: @borders;
+	border-width: 1px;
+	border-radius: 2px;
+	padding: 0;
+}
+
+GthEmptyList.frame:backdrop {
+	border-color: @unfocused_borders;
+}
+
+/* -- histogram -- */
+
+.histogram {
+	background-color: #333333;
+	border-color: #282828;
+}
+
+.histogram:backdrop {
+	border-color: @theme_unfocused_fg_color;
+}
+
+.histogram:selected,
+.histogram:selected:focus {
+	background-color: @theme_selected_bg_color;
+	color: @theme_selected_fg_color;
+}
+
+.histogram:backdrop:selected {
+	background-color: @theme_unfocused_selected_bg_color;
+	color: @theme_unfocused_selected_fg_color;
+}
+
+/* -- comment -- */
+
+@define-color comment_bg #f5fabf;
+@define-color comment_border #a3a684;
+@define-color comment_bg_backdrop #c5c6ba;
+@define-color comment_border_backdrop #a5a5a5;
+
+GtkScrolledWindow.comment {
+	background-color: @comment_bg;
+	padding: 5px 0 5px 5px;
+}
+
+GtkScrolledWindow.comment:backdrop {
+	background-color: @comment_bg_backdrop;
+}
+
+GtkScrolledWindow.comment.frame {
+	border-color: transparent;
+}
+
+GtkScrolledWindow.comment .scrollbar.trough {
+	background-color: @comment_bg;
+}
+
+GtkScrolledWindow.comment .scrollbar.trough:backdrop {
+	background-color: @comment_bg_backdrop;
+}
+
+GtkScrolledWindow.comment .scrollbar.slider {
+	background-color: @comment_border;
+}
+
+GtkScrolledWindow.comment .scrollbar.slider:backdrop {
+	background-color: @comment_border_backdrop;
+}
+
+.comment .view,
+.comment.view {
+	background-color: @comment_bg;
+	color: #000000;
+}
+
+.comment .view:backdrop,
+.comment.view:backdrop {
+	background-color: @comment_bg_backdrop;
+	color: #666666;
+}
+
+.comment .view:selected,
+.comment.view:selected {
+	background-color: @theme_selected_bg_color;
+	color: @theme_selected_fg_color;
+}
+
+.comment .view:backdrop:selected,
+.comment.view:backdrop:selected {
+	background-color: @theme_unfocused_selected_bg_color;
+	color: @theme_unfocused_selected_fg_color;
+}
+
+/* -- highlighed text on the destination button in the import dialog -- */
+
+GtkLabel.highlighted-text {
+	color: #8fb1e0;
+}
+
+GtkLabel.highlighted-text:backdrop {
+	color: #333333;
+}
+
+/* -- extension list in the preferences dialog -- */
+
+GtkLabel.extension-name {
+	font-weight: bold;
+}
+
+GtkLabel.extension-description {
+	font-size: 80%;
+	color: @theme_unfocused_fg_color;
+}
+
+/* -- video player -- */
+
+.video-player {
+	background-color: #000;
+}
