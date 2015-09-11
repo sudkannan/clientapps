@@ -1,0 +1,127 @@
+./run_jpeg.sh: line 7: -dct: command not found
+rm: cannot remove ‘/mnt/pmfs/chkprocmap701_2797’: Operation not permitted
+rm: cannot remove ‘/mnt/pmfs/chkprocmap701_2799’: Operation not permitted
+rm: cannot remove ‘/mnt/pmfs/chkprocmap701_2801’: Operation not permitted
+rm: cannot remove ‘/mnt/pmfs/chkprocmap701_2803’: Operation not permitted
+rm: cannot remove ‘/mnt/pmfs/chkprocmap701_2805’: Operation not permitted
+rm: cannot remove ‘/mnt/pmfs/chkprocmap701_2807’: Operation not permitted
+rm: cannot remove ‘/mnt/pmfs/chkprocmapdata701_17’: Operation not permitted
+rm: cannot remove ‘/mnt/pmfs/chkprocmapdata701_18’: Operation not permitted
+rm: cannot remove ‘/mnt/pmfs/chkprocmapdata701_19’: Operation not permitted
+rm: cannot remove ‘/mnt/pmfs/chkprocmapdata701_20’: Operation not permitted
+rm: cannot remove ‘/mnt/pmfs/chkprocmapdata701_21’: Operation not permitted
+rm: cannot remove ‘/mnt/pmfs/chkprocmapdata701_22’: Operation not permitted
+rm: cannot remove ‘/mnt/pmfs/chkprocmapdata701_23’: Operation not permitted
+rm: cannot remove ‘/mnt/pmfs/chkprocmapdata701_24’: Operation not permitted
+rm: cannot remove ‘/mnt/pmfs/chkprocmapdata701_25’: Operation not permitted
+rm: cannot remove ‘/mnt/pmfs/chkprocmapdata701_26’: Operation not permitted
+rm: cannot remove ‘/mnt/pmfs/chkprocmapdata701_27’: Operation not permitted
+rm: cannot remove ‘/mnt/pmfs/chkprocmapdata701_28’: Operation not permitted
+rm: cannot remove ‘/mnt/pmfs/chkprocmapdata701_29’: Operation not permitted
+rm: cannot remove ‘/mnt/pmfs/chkprocmapdata701_30’: Operation not permitted
+rm: cannot remove ‘/mnt/pmfs/chkprocmap701_2807’: Operation not permitted
+rm: cannot remove ‘/mnt/pmfs/chkprocmapdata701_30’: Operation not permitted
+rm: cannot remove ‘/mnt/pmfs/chkprocmapdata701_29’: Operation not permitted
+rm: cannot remove ‘/mnt/pmfs/chkprocmap701_2805’: Operation not permitted
+rm: cannot remove ‘/mnt/pmfs/chkprocmapdata701_28’: Operation not permitted
+rm: cannot remove ‘/mnt/pmfs/chkprocmapdata701_27’: Operation not permitted
+rm: cannot remove ‘/mnt/pmfs/chkprocmap701_2803’: Operation not permitted
+rm: cannot remove ‘/mnt/pmfs/chkprocmapdata701_26’: Operation not permitted
+rm: cannot remove ‘/mnt/pmfs/chkprocmapdata701_25’: Operation not permitted
+rm: cannot remove ‘/mnt/pmfs/chkprocmap701_2801’: Operation not permitted
+rm: cannot remove ‘/mnt/pmfs/chkprocmapdata701_24’: Operation not permitted
+rm: cannot remove ‘/mnt/pmfs/chkprocmapdata701_23’: Operation not permitted
+rm: cannot remove ‘/mnt/pmfs/chkprocmap701_2799’: Operation not permitted
+rm: cannot remove ‘/mnt/pmfs/chkprocmapdata701_22’: Operation not permitted
+rm: cannot remove ‘/mnt/pmfs/chkprocmapdata701_21’: Operation not permitted
+rm: cannot remove ‘/mnt/pmfs/chkprocmap701_2797’: Operation not permitted
+rm: cannot remove ‘/mnt/pmfs/chkprocmapdata701_20’: Operation not permitted
+rm: cannot remove ‘/mnt/pmfs/chkprocmapdata701_19’: Operation not permitted
+rm: cannot remove ‘/mnt/pmfs/chkprocmapdata701_18’: Operation not permitted
+rm: cannot remove ‘/mnt/pmfs/chkprocmapdata701_17’: Operation not permitted
+rm: cannot remove ‘/mnt/pmfs/chkprocmap701_2797’: Operation not permitted
+rm: cannot remove ‘/mnt/pmfs/chkprocmap701_2799’: Operation not permitted
+rm: cannot remove ‘/mnt/pmfs/chkprocmap701_2801’: Operation not permitted
+rm: cannot remove ‘/mnt/pmfs/chkprocmap701_2803’: Operation not permitted
+rm: cannot remove ‘/mnt/pmfs/chkprocmap701_2805’: Operation not permitted
+rm: cannot remove ‘/mnt/pmfs/chkprocmap701_2807’: Operation not permitted
+rm: cannot remove ‘/mnt/pmfs/chkprocmapdata701_17’: Operation not permitted
+rm: cannot remove ‘/mnt/pmfs/chkprocmapdata701_18’: Operation not permitted
+rm: cannot remove ‘/mnt/pmfs/chkprocmapdata701_19’: Operation not permitted
+rm: cannot remove ‘/mnt/pmfs/chkprocmapdata701_20’: Operation not permitted
+rm: cannot remove ‘/mnt/pmfs/chkprocmapdata701_21’: Operation not permitted
+rm: cannot remove ‘/mnt/pmfs/chkprocmapdata701_22’: Operation not permitted
+rm: cannot remove ‘/mnt/pmfs/chkprocmapdata701_23’: Operation not permitted
+rm: cannot remove ‘/mnt/pmfs/chkprocmapdata701_24’: Operation not permitted
+rm: cannot remove ‘/mnt/pmfs/chkprocmapdata701_25’: Operation not permitted
+rm: cannot remove ‘/mnt/pmfs/chkprocmapdata701_26’: Operation not permitted
+rm: cannot remove ‘/mnt/pmfs/chkprocmapdata701_27’: Operation not permitted
+rm: cannot remove ‘/mnt/pmfs/chkprocmapdata701_28’: Operation not permitted
+rm: cannot remove ‘/mnt/pmfs/chkprocmapdata701_29’: Operation not permitted
+rm: cannot remove ‘/mnt/pmfs/chkprocmapdata701_30’: Operation not permitted
+LOADING PROCESS OBJECT
+nv_map.cc: load_process 701 
+create_or_load_proc_obj PROCMETADATA_PATH /mnt/pmfs/chkproc pid 701 file_name  
+nv_map.cc: _mmap object 701 
+nv_map.cc: _mmap object 701 
+nv_map.cc: _mmap object 701 
+nv_map.cc: _mmap object 701 
+nv_map.cc: _mmap object 701 
+nv_map.cc: _mmap object 701 
+nv_map.cc: _mmap object 701 
+nv_map.cc: _mmap object 701 
+nv_map.cc: _mmap object 701 
+nv_map.cc: _mmap object 701 
+nv_map.cc: _mmap object 701 
+nv_map.cc: _mmap object 701 
+nv_map.cc: _mmap object 701 
+nv_map.cc: _mmap object 701 
+nv_map.cc: _mmap object 701 
+nv_map.cc: _mmap object 701 
+nv_map.cc: _mmap object 701 
+/mnt/pmfs/chkprocmapdata701_17: Permission denied
+Result:	\ not found
++ echo Enter application name and arguments as params for the script
+Enter application name and arguments as params for the script
++ sudo chmod o+rw /dev/cpu/0/msr /dev/cpu/1/msr /dev/cpu/2/msr /dev/cpu/3/msr /dev/cpu/4/msr /dev/cpu/5/msr /dev/cpu/6/msr /dev/cpu/7/msr
++ sudo modprobe msr
++ sudo likwid-perfctr -C 0-7 -g INSTR_RETIRED_ANY:FIXC0 /mnt/pmfs/
+sh: 1: /mnt/pmfs/: Permission denied
+-------------------------------------------------------------
+-------------------------------------------------------------
+CPU type:	Intel Core Lynnfield processor 
+CPU clock:	2.94 GHz 
+-------------------------------------------------------------
+/mnt/pmfs/
+Status: 0x0 
+Status: 0x0 
+Status: 0x0 
+Status: 0x0 
+Status: 0x0 
+Status: 0x0 
+Status: 0x0 
+Status: 0x0 
++-----------------------+-------------+--------+--------+--------+--------+--------+--------+--------+
+|         Event         |   core 0    | core 1 | core 2 | core 3 | core 4 | core 5 | core 6 | core 7 |
++-----------------------+-------------+--------+--------+--------+--------+--------+--------+--------+
+|   INSTR_RETIRED_ANY   |   319621    |   0    |   0    |   0    |   0    |   0    |   0    |   0    |
+|   INSTR_RETIRED_ANY   |   319621    |   0    |   0    |   0    |   0    |   0    |   0    |   0    |
+| CPU_CLK_UNHALTED_CORE | 1.21009e+06 |   0    |   0    |   0    |   0    |   0    |   0    |   0    |
+| CPU_CLK_UNHALTED_REF  | 1.24703e+06 |   0    |   0    |   0    |   0    |   0    |   0    |   0    |
++-----------------------+-------------+--------+--------+--------+--------+--------+--------+--------+
++----------------------------+-------------+-------------+-----+---------+
+|           Event            |     Sum     |     Max     | Min |   Avg   |
++----------------------------+-------------+-------------+-----+---------+
+|   INSTR_RETIRED_ANY STAT   |   319621    |   319621    |  0  | 39952.6 |
+|   INSTR_RETIRED_ANY STAT   |   319621    |   319621    |  0  | 39952.6 |
+| CPU_CLK_UNHALTED_CORE STAT | 1.21009e+06 | 1.21009e+06 |  0  | 151261  |
+| CPU_CLK_UNHALTED_REF STAT  | 1.24703e+06 | 1.24703e+06 |  0  | 155878  |
++----------------------------+-------------+-------------+-----+---------+
++----------------------+-------------+------------+------------+------------+------------+------------+------------+------------+
+|        Metric        |   core 0    |   core 1   |   core 2   |   core 3   |   core 4   |   core 5   |   core 6   |   core 7   |
++----------------------+-------------+------------+------------+------------+------------+------------+------------+------------+
+| Runtime (RDTSC) [s]  | 0.00202643  | 0.00202643 | 0.00202643 | 0.00202643 | 0.00202643 | 0.00202643 | 0.00202643 | 0.00202643 |
+| Runtime unhalted [s] | 0.000411261 |     0      |     0      |     0      |     0      |     0      |     0      |     0      |
+|     Clock [MHz]      |   2855.25   |     0      |     0      |     0      |     0      |     0      |     0      |     0      |
+|         CPI          |   3.78602   |     0      |     0      |     0      |     0      |     0      |     0      |     0      |
++----------------------+-------------+------------+------------+------------+------------+------------+------------+------------+

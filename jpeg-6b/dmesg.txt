@@ -1,0 +1,5 @@
+[19337.037959] <4> Setting the PCE bit 
+[19353.010781] <4> Setting the PCE bit 
+[19353.037335] sys_NValloc: invoking iterate_chunk 
+[19353.037345] sys_clear_all_persist: clearing all persistent state 
+[19372.467649] BUG: Bad rss-counter state mm:ffff8800b3e28000 idx:1 val:-39568
