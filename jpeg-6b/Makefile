@@ -24,13 +24,13 @@ CC= gcc
 
 
 #NVML related libraries*/
-INCDIR ?= ../../../include
-LIBDIR ?= ../../../debug
-INCS = -I$(INCDIR)
+#INCDIR ?= ../../../include
+#LIBDIR ?= ../../../debug
+#INCS = -I$(INCDIR)
 
 
 # You may need to adjust these cc options:
-CFLAGS= -O2  -I$(srcdir) -DUSE_NVM -DUSE_NOMMAP -I$(INCDIR)
+CFLAGS= -O2  -I$(srcdir) -DUSE_NOMMAP #-DUSE_NVM  -I$(INCDIR)
 # Generally, we recommend defining any configuration symbols in jconfig.h,
 # NOT via -D switches here.
 # However, any special defines for ansi2knr.c may be included here:
@@ -40,7 +40,7 @@ ANSI2KNRFLAGS=
 LDFLAGS= 
 
 # To link any special libraries, add the necessary -l commands here.
-LDLIBS= -lnvmchkpt -lpmemobj -lpmem -pthread
+#LDLIBS= -lnvmchkpt -lpmemobj -lpmem -pthread
 
 # If using GNU libtool, LIBTOOL references it; if not, LIBTOOL is empty.
 LIBTOOL = 
